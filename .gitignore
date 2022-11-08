@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Input & output data
+**/CNN models saves/
+*.jpeg
+*.jpg
+*.svs
