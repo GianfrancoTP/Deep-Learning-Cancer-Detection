@@ -39,7 +39,7 @@ gray_scale_cut = 215
     
     Aquí podemos ver unos ejemplos de distintos ***gray_scale_cut*** que van desde 210 al 230. Se puede notar que cuando usamos un valor de 230, este no distingue bien el tejido del fondo, por lo que es necesario bajarlo a 220 o 215 para distinguir bien entre ambos elementos.
     
-    ![Screenshot_1.png](/imagenes/Screenshot_1.png)
+    ![Screenshot_1.png](./imagenes/Screenshot_1.png)
     
 
 ## Output
