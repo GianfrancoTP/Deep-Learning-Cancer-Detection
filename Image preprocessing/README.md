@@ -53,19 +53,19 @@ Las imágenes serán guardadas en carpetas con el nombre de su caso respectivo e
 Si queremos simplemente correr el programa con los valores *defaults* entonces usamos el siguiente comando en consola:
 
 ```powershell
-> python dataset_generator.py 
+python dataset_generator.py 
 ```
 
 También, si queremos cambiar alguna variable, como el ***tile_size*** (tamaño de los parches) a 200x200 pixeles, entonces usamos el parámetro “-s”. Un ejemplo de esto se puede ver a continuación usando los comandos de consola.
 
 ```powershell
-> python dataset_generator.py -s 200
+python dataset_generator.py -s 200
 ```
 
 Igualmente, si queremos cambiar las variables ***min_positive_percentage*** por 85% y el ***gray_scale_cut*** de 220, usamos los parámetros “-min” y “-b” respectivamente como se observa a continuación:
 
 ```powershell
-> python dataset_generator.py -min 0.85 -b 220
+python dataset_generator.py -min 0.85 -b 220
 ```
 
 A continuación, podemos observar una tabla con todos los parámetros modificables para la creación de la base de datos.
